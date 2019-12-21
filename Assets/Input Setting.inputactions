@@ -795,15 +795,15 @@
                     "interactions": ""
                 },
                 {
-                    "name": "Ability4",
+                    "name": "Jump",
                     "type": "Button",
                     "id": "7e6161bd-0d32-4f80-9e2d-9249dd2df5a1",
                     "expectedControlType": "",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "Tap"
                 },
                 {
-                    "name": "Ability3",
+                    "name": "Ability4",
                     "type": "Button",
                     "id": "ca4016be-192f-47f7-8e16-2c1f7e0a5d64",
                     "expectedControlType": "",
@@ -811,7 +811,7 @@
                     "interactions": ""
                 },
                 {
-                    "name": "Ability2",
+                    "name": "Ability3",
                     "type": "Button",
                     "id": "b7a4f55f-4868-4ddb-87ae-ef767e73e4fc",
                     "expectedControlType": "",
@@ -819,9 +819,17 @@
                     "interactions": ""
                 },
                 {
-                    "name": "Ability1",
+                    "name": "Ability2",
                     "type": "Button",
                     "id": "4179a938-98a7-4464-9faf-2cd22ef3cfef",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Ability1",
+                    "type": "Button",
+                    "id": "35babf06-4fdd-4d61-a752-bdda658ab484",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": ""
@@ -1023,6 +1031,28 @@
                     "processors": "",
                     "groups": "Gamepad",
                     "action": "Ability4",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8e4a21e9-3614-4ddc-8ea1-0d9aee7d8ee1",
+                    "path": "<Keyboard>/space",
+                    "interactions": "Tap",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0a951fe4-88ad-4fb6-b0a3-e457202a51fb",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "Tap",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "Jump",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
