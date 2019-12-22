@@ -133,6 +133,9 @@ public class SmartTile : Tile
         else if (!up && down && right && left)
             return 9;
 
+        else if (up && down && !right && !left)
+            return 3;
+
         else
             return -1;
     }
