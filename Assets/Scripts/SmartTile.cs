@@ -44,6 +44,11 @@ public class SmartTile : Tile
     // As the rotation is determined by the Tile, the TileFlags.OverrideTransform is set for the tile.
     public override void GetTileData(Vector3Int location, ITilemap tilemap, ref TileData tileData)
     {
+        up = false;
+        down = false;
+        right = false;
+        left = false;
+
         // bool-flags raised if tile got adjacent tiles on eighter side
         if (HasTile(tilemap, location + new Vector3Int(0, 1, 0)))
             up = true;
@@ -124,6 +129,9 @@ public class SmartTile : Tile
 
         else if (up && !down && !right && !left)
             return 8;
+
+        else if (!up && down && right && left)
+            return 9;
 
         else
             return -1;
