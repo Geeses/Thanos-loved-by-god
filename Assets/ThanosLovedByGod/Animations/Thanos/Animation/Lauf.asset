@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae0543fe805424df99fe08ce744cbe49, type: 3}
+  m_Name: Lauf
+  m_EditorClassIdentifier: 
+  m_PoseEntries:
+  - path: Bones/root
+    localPosition: {x: -0.25733596, y: -2.0796463, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.7343354, w: -0.6787868}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/root/lowerboday
+    localPosition: {x: 1.0000001, y: 0, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.0000003576246, w: 1}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/root/lowerboday/Upperboy
+    localPosition: {x: 1.0000075, y: 7.213785e-11, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.16093333, w: 0.9869653}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/root/lowerboday/Upperboy/neck
+    localPosition: {x: 0.78244615, y: -0.0000000121071935, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.13000119, w: 0.9915139}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/root/lowerboday/Upperboy/neck/head
+    localPosition: {x: 0.20863622, y: -0.00000008079223, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.21622252, w: 0.9763441}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/root/lowerboday/Upperboy/neck/head/helmet
+    localPosition: {x: 1.0000159, y: -0.000000029802322, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.4257661, w: -0.9048333}
+    localScale: {x: 0.5, y: 0.5, z: 1}
+  - path: Bones/root/lowerboday/Upperboy/neck/head/helmet/visor
+    localPosition: {x: -0.03738165, y: 0.8216604, z: 0}
+    localRotation: {x: -0, y: -0, z: 0.63583255, w: -0.771827}
+    localScale: {x: 0.6000002, y: 0.6000002, z: 1}
+  - path: Bones/root/lowerboday/Upperboy/neck/head/helmet/helmetdetail1
+    localPosition: {x: -0.10374802, y: 0.90698564, z: 0}
+    localRotation: {x: -0, y: -0, z: -0.9777997, w: -0.20954183}
+    localScale: {x: 0.80000067, y: 0.80000067, z: 1}
+  - path: Bones/root/lowerboday/Upperboy/neck/head/helmet/helmetdetail2
+    localPosition: {x: -0.7960146, y: 0.29261088, z: 0}
+    localRotation: {x: -0, y: -0, z: 0.98185587, w: -0.18962894}
+    localScale: {x: 0.60000026, y: 0.60000026, z: 1}
+  - path: Bones/root/lowerboday/Upperboy/neck/head/ear
+    localPosition: {x: 0.3407981, y: 0.19748522, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.35472754, w: 0.9349697}
+    localScale: {x: 0.2, y: 0.2, z: 1}
+  - path: Bones/root/lowerboday/Upperboy/neck/head/ feather1
+    localPosition: {x: 0.58197, y: 0.41878968, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.99724734, w: 0.07414741}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/root/lowerboday/Upperboy/neck/head/ feather1/ feather2
+    localPosition: {x: 0.17521872, y: 0.0000000037252903, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.34143692, w: 0.93990475}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/root/lowerboday/Upperboy/neck/head/ feather1/ feather2/ feather3
+    localPosition: {x: 0.1754334, y: 0.0000004172325, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.36576885, w: 0.9307057}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/root/lowerboday/Upperboy/uppershieldarm
+    localPosition: {x: 0.7852335, y: -0.3791202, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.9943417, w: -0.10622967}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/root/lowerboday/Upperboy/uppershieldarm/lowershieldarm
+    localPosition: {x: 0.83803606, y: -0.00000008940697, z: 0}
+    localRotation: {x: -0, y: 0, z: 0.82020396, w: 0.57207125}
+    localScale: {x: 0.8, y: 0.8, z: 1}
+  - path: Bones/root/lowerboday/Upperboy/upperswordarm
+    localPosition: {x: 0.64018106, y: 0.42886126, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.99043167, w: -0.13800459}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/root/lowerboday/Upperboy/upperswordarm/lowerswordarm
+    localPosition: {x: 0.8491496, y: -0.0000004172325, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.46531156, w: 0.885147}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/root/lowerboday/Upperboy/upperswordarm/lowerswordarm/hand
+    localPosition: {x: 0.6319386, y: 0.000000059604645, z: 0}
+    localRotation: {x: -0, y: -0, z: 0.081408046, w: 0.9966809}
+    localScale: {x: 0.4, y: 0.4, z: 1}
+  - path: Bones/root/lowerboday/rightupperleg
+    localPosition: {x: 0.3001592, y: -0.13680175, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.96600676, w: 0.25851706}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/root/lowerboday/rightupperleg/rightlowerleg
+    localPosition: {x: 0.60886306, y: 0.000000059604645, z: 0}
+    localRotation: {x: -0, y: -0, z: 0.40633607, w: -0.91372377}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/root/lowerboday/rightupperleg/rightlowerleg/foot
+    localPosition: {x: 0.85312605, y: 0.000000074505806, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.15607783, w: 0.9877448}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/root/lowerboday/rightupperleg/rightlowerleg/foot/foot
+    localPosition: {x: 0.22453323, y: 0.0000003760215, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.868111, w: 0.49637017}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/root/lowerboday/rightupperleg/rightlowerleg/foot/foot/foot
+    localPosition: {x: 0.3121391, y: -0.0000005364418, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.022836545, w: 0.9997392}
+    localScale: {x: 0.3, y: 0.3, z: 1}
+  - path: Bones/root/lowerboday/upperleftleg
+    localPosition: {x: 0.34593216, y: 0.28878224, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.99366814, w: 0.112355046}
+    localScale: {x: 1.0000002, y: 1.0000002, z: 1}
+  - path: Bones/root/lowerboday/upperleftleg/lowerleftleg
+    localPosition: {x: 0.5893407, y: 0, z: 0}
+    localRotation: {x: -0, y: -0, z: 0.29974648, w: -0.9540189}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/root/lowerboday/upperleftleg/lowerleftleg/foot
+    localPosition: {x: 0.85312605, y: 0.000000074505806, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.1204757, w: 0.9927163}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/root/lowerboday/upperleftleg/lowerleftleg/foot/foot
+    localPosition: {x: 0.17316234, y: 0.000000003259629, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.79397804, w: 0.60794646}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/root/lowerboday/upperleftleg/lowerleftleg/foot/foot/foot
+    localPosition: {x: 0.3121391, y: -0.0000005364418, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.49417335, w: 0.8693634}
+    localScale: {x: 0.3, y: 0.3, z: 1}

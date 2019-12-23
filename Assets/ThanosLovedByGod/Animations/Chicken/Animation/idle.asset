@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae0543fe805424df99fe08ce744cbe49, type: 3}
+  m_Name: idle
+  m_EditorClassIdentifier: 
+  m_PoseEntries:
+  - path: spinner
+    localPosition: {x: 0.1385774, y: -1.7524678, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.64503103, w: 0.7641564}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: 'spinner/lower body '
+    localPosition: {x: 0.99100363, y: -0.000000059604645, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.07476258, w: 0.9972014}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: spinner/lower body /upper body
+    localPosition: {x: 0.94875515, y: 0.00000003448804, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.083288796, w: 0.99652547}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: spinner/lower body /upper body/head
+    localPosition: {x: 1.2925205, y: -0.000000023203029, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.26721928, w: 0.96363574}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: spinner/lower body /upper body/head/comb
+    localPosition: {x: 0.90117157, y: -0.000000007450581, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.6204706, w: 0.7842298}
+    localScale: {x: 0.4, y: 0.4, z: 1}
+  - path: 'spinner/lower body /upper body/head/beak '
+    localPosition: {x: 0.47495282, y: -0.113579504, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.6670788, w: 0.74498725}
+    localScale: {x: 0.2, y: 0.2, z: 1}
+  - path: spinner/lower body /upper body/head/beak /bag
+    localPosition: {x: 0.304803, y: -0.5806123, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.56401014, w: 0.8257679}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: spinner/lower body /upper body/left upper arm
+    localPosition: {x: 1.2939738, y: 0.5349953, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.99685746, w: 0.079216346}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: spinner/lower body /upper body/left upper arm/left lower arm
+    localPosition: {x: 1.0862027, y: -0.00000009250641, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.9580758, w: 0.28651476}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: spinner/lower body /upper body/left upper arm/left lower arm/left hand
+    localPosition: {x: 0.99946004, y: 0.00000017881393, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.13472801, w: 0.9908826}
+    localScale: {x: 0.4, y: 0.4, z: 1}
+  - path: spinner/lower body /upper body/right upper arm
+    localPosition: {x: 1.0784032, y: -0.5741192, z: 0}
+    localRotation: {x: -0, y: 0, z: -0.9985579, w: -0.05368597}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: spinner/lower body /upper body/right upper arm/right lower arm
+    localPosition: {x: 0.96347964, y: 0.00000017881393, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.98752654, w: 0.15745266}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: spinner/lower body /upper body/right upper arm/right lower arm/right hand
+    localPosition: {x: 0.74231666, y: -0.0000004172325, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.3474879, w: 0.93768454}
+    localScale: {x: 0.3, y: 0.3, z: 1}
+  - path: spinner/lower body /upper body/left wing
+    localPosition: {x: 1.3719157, y: 0.34969535, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.66778463, w: 0.7443546}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: spinner/lower body /upper body/right wing
+    localPosition: {x: 1.160185, y: -0.51944, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.80763364, w: 0.58968455}
+    localScale: {x: 1.0000006, y: 1.0000006, z: 1}
+  - path: spinner/lower body /tail
+    localPosition: {x: 0.6799817, y: 0.43467766, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.6870932, w: 0.7265693}
+    localScale: {x: 0.3, y: 0.3, z: 1}
+  - path: spinner/lower body /right upper leg
+    localPosition: {x: 0.31307513, y: -0.1915806, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.9986854, w: 0.051260173}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: spinner/lower body /right upper leg/right lower leg
+    localPosition: {x: 1.0000002, y: 0.000000029802322, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.42503858, w: 0.90517527}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: spinner/lower body /right upper leg/right lower leg/right foot
+    localPosition: {x: 0.600482, y: 0.00000021606684, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.1981456, w: 0.9801726}
+    localScale: {x: 0.2, y: 0.2, z: 1}
+  - path: 'spinner/lower body /Left upper leg '
+    localPosition: {x: 0.25994724, y: 0.47244647, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.9999995, w: 0.0009640744}
+    localScale: {x: 1.0000006, y: 1.0000006, z: 1}
+  - path: spinner/lower body /Left upper leg /left lower leg
+    localPosition: {x: 1.0133247, y: -0.00000005960461, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.16021737, w: 0.98708177}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: spinner/lower body /Left upper leg /left lower leg/left foot
+    localPosition: {x: 0.74917936, y: 0.000000044703484, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.1886624, w: 0.9820421}
+    localScale: {x: 0.2, y: 0.2, z: 1}
