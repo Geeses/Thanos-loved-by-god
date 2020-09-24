@@ -72,7 +72,7 @@ public class SmartTile : Tile
             m.SetTRS(Vector3.zero, Quaternion.Euler(0f, 0f, 0f), Vector3.one);
             tileData.transform = m;
             tileData.flags = TileFlags.LockTransform;
-            tileData.colliderType = ColliderType.None;
+            tileData.colliderType = ColliderType.Sprite;
 
         }
         else
